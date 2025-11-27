@@ -1,5 +1,5 @@
 {
-    "name": "ABC Group ruleset for PTE app development",
+    "name": "Stefan Maron ruleset for PTE app development",
     "includedRuleSets": [
         {
             "action": "Default",
