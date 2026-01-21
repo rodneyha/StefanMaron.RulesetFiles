@@ -35,6 +35,16 @@
             "id": "AA0073",
             "action": "None",
             "justification": "Temporary 'buffer' varaibles wont get temp prefix"
+        },
+        {
+            "id": "LC0090",
+            "action": "Warning",
+            "justification": "Cognitive Complexity"            
+        },
+        {
+            "id": "LC0010",
+            "action": "none",
+            "justification": "Cyclomatic complexity"            
         }
     ]
 }
