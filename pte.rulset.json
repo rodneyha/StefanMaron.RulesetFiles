@@ -4,6 +4,10 @@
         {
             "action": "Default",
             "path": "https://raw.githubusercontent.com/StefanMaron/RulesetFiles/main/base.rulset.json"
+        },
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/StefanMaron/RulesetFiles/main/pte-non-schema-deletions.rulset.json"
         }
     ],
     "rules": [

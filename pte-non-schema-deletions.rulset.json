@@ -1,0 +1,46 @@
+{
+    "name": "Stefan Maron PTE non-schema deletion rules",
+    "description": "Downgrades deletion rules for non-schema objects to Warning. Schema-affecting deletions (AS0001, AS0002, AS0009, AS0010, AS0043) are intentionally excluded and remain Errors. PTEs can legitimately remove UI elements and code objects without risking data loss or deployment failures.",
+    "rules": [
+        {
+            "id": "AS0029",
+            "action": "Warning",
+            "justification": "Pages and page extensions can be removed in PTEs without schema risk."
+        },
+        {
+            "id": "AS0031",
+            "action": "Warning",
+            "justification": "Actions can be removed in PTEs without schema risk."
+        },
+        {
+            "id": "AS0032",
+            "action": "Warning",
+            "justification": "Controls can be removed in PTEs without schema risk."
+        },
+        {
+            "id": "AS0033",
+            "action": "Warning",
+            "justification": "Views can be removed in PTEs without schema risk."
+        },
+        {
+            "id": "AS0064",
+            "action": "Warning",
+            "justification": "Interface implementations can be removed in PTEs without schema risk."
+        },
+        {
+            "id": "AS0065",
+            "action": "Warning",
+            "justification": "Interfaces can be removed in PTEs without schema risk."
+        },
+        {
+            "id": "AS0088",
+            "action": "Warning",
+            "justification": "Code objects with IDs (codeunits, reports, queries, enums) can be removed in PTEs without schema risk."
+        },
+        {
+            "id": "AS0089",
+            "action": "Warning",
+            "justification": "Code objects without IDs that can be referenced can be removed in PTEs without schema risk."
+        }
+    ]
+}
